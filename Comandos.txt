@@ -1,0 +1,18 @@
+git init 			-- Iniciar repositorio
+git add 			-- Agregar archivos al area de preparacion
+git add . 			-- Agregar todo en la carpeta actual, incluido subcarpetas y archivos
+git commit 			-- subir archivos al repositorio. El mensaje deberá ser escrito en Visual Studio Code
+git commit -m Mensaje 		-- subir archivos al repositorio escribiendo el mensaje de commit en la linea de comandos
+git log 			-- Se revisa los cambios realizados en el repositorio
+git commit -am Mensaje 		-- Se agregan todos los archivos modificados sin necesidad de realizar un "git add" anteriormente
+git checkout NombreArchivo 	-- devuelve los cambios realizados en el archivo especifico hasta el paso anterior.
+git checkout -f 		-- devuelve los cambios realizados en todos los archivos hasta el paso anterior.
+git restore --staged		-- quita archivos del area de preparacion
+git diff NombreArchivo		-- ver diferencia en archivo especifico
+git checkout hashVersion	-- se devuelve hasta el estado indicado, todo lo hecho después se pierde si es que se sigue trabajando en la rama principal
+git checkout master		-- vuelve a la version mas reciente del proyecto
+git checkout -b NombreRama	-- crea rama nueva
+git branch 			-- Muestra estructura en ramas del proyecto
+git switch "NombreRama" 	-- moverse entre ramas
+git log --oneline		-- ver informacion simplificada del log
+git log --oneline --all		-- ver informacion del log de todas las ramas
