@@ -16,3 +16,8 @@ git branch 			-- Muestra estructura en ramas del proyecto
 git switch "NombreRama" 	-- moverse entre ramas
 git log --oneline		-- ver informacion simplificada del log
 git log --oneline --all		-- ver informacion del log de todas las ramas
+git push                    -- sube contenido al repositorio remoto 
+git fetch                   -- baja contenido desde el repositorio remoto
+git remote -v               -- revisa el repositorio remoto al que se está conectado
+git clone codigotGit        -- copia el codigo desde el repositorio remoto, hay q usar el codigo HTTP o SSH
+
